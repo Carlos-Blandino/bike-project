@@ -1,22 +1,42 @@
+body {
+	background-color: rgb(233, 232, 232);
+	color: rgb(0, 0, 0);
+}
 .container {
 	width: 1024px;
-	background-color: rgb(18, 60, 12);
 	min-height: 300px;
 	margin: 0 auto;
 }
 
 header {
-	background-color: rgb(41, 96, 36);
-	min-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.mainNav a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
+/* Main section */
 main {
-	background-color: rgb(41, 85, 139);
 	min-height: 300px;
+	display: flex;
+	align-items: center;
+}
+.heroInfo {
+	flex: 2;
+}
+.heroImage {
+	flex: 1;
 }
 
+/* Cards section */
 .cards {
-	background-color: rgb(49, 41, 139);
 	min-height: 300px;
 	display: flex;
 	justify-content: space-between;
