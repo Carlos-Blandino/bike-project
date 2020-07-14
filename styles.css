@@ -1,7 +1,23 @@
+html {
+	height: 100%;
+}
+/* HTML elements */
 body {
 	background-color: rgb(233, 232, 232);
-	color: rgb(0, 0, 0);
+	background-image: linear-gradient(#eea455, #f38d08);
+	font-size: 1.125rem;
+	font-family: 'Roboto', sans-serif;
 }
+h1 {
+	font-size: 2.25rem;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 1rem;
+}
+p {
+	margin-bottom: 1rem;
+	line-height: 1.5rem;
+}
+
 .container {
 	width: 1024px;
 	min-height: 300px;
@@ -33,6 +49,7 @@ main {
 }
 .heroImage {
 	flex: 1;
+	padding-right: 25px;
 }
 
 /* Cards section */
