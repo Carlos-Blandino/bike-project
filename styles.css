@@ -1,7 +1,14 @@
+/* General settings */
 html {
 	height: 100%;
 }
-/* HTML elements */
+
+.container {
+	width: 1024px;
+	min-height: 300px;
+	margin: 0 auto;
+}
+
 body {
 	background-color: rgb(233, 232, 232);
 	background-image: linear-gradient(#eea455, #f38d08);
@@ -9,6 +16,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 h1 {
+	color: orange;
 	font-size: 3.25rem;
 	font-family: 'Playfair Display', serif;
 	margin-bottom: 1rem;
@@ -23,12 +31,7 @@ p {
 	line-height: 1.5rem;
 }
 
-.container {
-	width: 1024px;
-	min-height: 300px;
-	margin: 0 auto;
-}
-
+/* Header section */
 header {
 	display: flex;
 	justify-content: space-between;
@@ -36,18 +39,28 @@ header {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
-.mainNav a {
-	color: rgb(0, 0, 0);
-	text-decoration: none;
-	margin-left: 1rem;
-	margin-right: 1rem;
-}
 
 /* Main section */
 main {
 	min-height: 300px;
 	display: flex;
 	align-items: center;
+	background-color: rgba(0, 0, 0);
+	margin-bottom: 1rem;
+	box-sizing: border-box;
+	padding: 2rem 1rem 2rem 1rem;
+	color: white;
+}
+main a {
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+.mainNav a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	margin-left: 1rem;
+	margin-right: 1rem;
 }
 .heroInfo {
 	flex: 2;
@@ -55,6 +68,13 @@ main {
 .heroImage {
 	flex: 1;
 	padding-right: 25px;
+}
+.myButton {
+	padding: 0.5rem;
+	border-radius: 5px;
+	color: black;
+	margin-top: 1.25rem;
+	background-color: rgb(255, 132, 0);
 }
 
 /* Cards section */
@@ -67,13 +87,18 @@ main {
 .card1,
 .card2,
 .card3 {
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+	border-radius: 5px;
 	background-size: cover;
 	background-position: bottom;
 	min-height: 250px;
 	width: 30%;
+	box-sizing: border-box;
+	padding: 10px;
 }
 .card1 {
 	background-image: url(images/image-background-card1.jpg);
+	background-blend-mode: lighten;
 }
 .card2 {
 	background-image: url(images/image-background-card2.jpg);
@@ -95,22 +120,21 @@ main {
 	font-size: 0.85rem;
 	font-weight: 100;
 	line-height: 1.2rem;
+	background-color: rgba(0, 0, 0, 0.598);
+	padding: 15px 3px 15px 3px;
+	border-top: white 1px solid;
 }
 
 /* Cards Section - Font awesome Icons */
 .fas.fa-phone-square {
-	color: white;
+	background-color: black;
+	color: orange;
 	font-size: 6.5rem;
 	margin-top: 8px;
 }
-.fas.fa-bicycle {
-	background-color: white;
-	border-radius: .5rem;
-	font-size: 5.5rem;
-	margin-top: 15px;
-}
-.fas.fa-wrench {
-	background-color: white;
+.cards i {
+	background-color: orange;
+	color: black;
 	border-radius: .5rem;
 	font-size: 5.5rem;
 	margin-top: 15px;

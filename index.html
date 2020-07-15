@@ -14,7 +14,11 @@
     <!-- This is the google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
 
+    <!-- Fontawesom script -->
     <script src="https://kit.fontawesome.com/e9f40fae6b.js" crossorigin="anonymous"></script>
+
+    <!-- My script  -->
+    <script defer src="script/main.js"></script>
     <title>Cycle Blandino  - Mobile Bike Repair in Long Beack</title>
 </head>
 <body>
@@ -26,9 +30,9 @@
         </div>
         <nav>
             <div class="mainNav">
-                <a href="#">Book Online</a>     
-                <a href="#">About</a>     
-                <a href="#">Contact</a> 
+                <a href="appointment.html">Book Online</a>     
+                <a href="services.html">About</a>     
+                <a href="contact.html">Contact</a> 
             </div>
         </nav>
        </header>
@@ -43,7 +47,7 @@
                 <p>Because of the Corona Virus, many people are finding it difficult to bring their bikes to a bike shop. I will come to your office or home anywhere in the Long Beach area.</p>
 
                 <p>Within a relativily short waiting period, I can provide affordable repairs as listed on our service page. Save time and money.</p>
-                    
+                <a href="appointment.html" class="myButton">Book it Now</a>
             </div>
             
        </main>
@@ -51,18 +55,18 @@
 
        <!-- Apply flex box to the parent -->
        <div class="cards">
-           <div class="card1">
-                <i class="fas fa-bicycle"></i>
+           <div class="card1" id="card1">
+                <a href="appointment.html"><i class="fas fa-bicycle"></i></a>
                <h2>Make Appointment</h2>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, animi cumque asperiores quasi commodi nobis?</p>
            </div>
-           <div class="card2">
-                <i class="fas fa-wrench"></i>
+           <div class="card2" id="card2">
+            <a href="services.html"><i class="fas fa-wrench"></i></a>
                 <h2>Look at Services</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, animi cumque asperiores quasi commodi nobis?</p> 
            </div>
-           <div class="card3">
-            <i class="fas fa-phone-square"></i>
+           <div class="card3" id="card3">
+            <a href="contact.html"><i class="fas fa-phone-square"></i></a>
                 <h2>Get My Advise</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, animi cumque asperiores quasi commodi nobis?</p>
            </div>
