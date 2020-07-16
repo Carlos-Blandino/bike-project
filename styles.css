@@ -42,6 +42,7 @@ header {
 
 /* Main section */
 main {
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, .5);
 	min-height: 300px;
 	display: flex;
 	align-items: center;
@@ -50,11 +51,6 @@ main {
 	box-sizing: border-box;
 	padding: 2rem 1rem 2rem 1rem;
 	color: white;
-}
-main a {
-	text-decoration: none;
-	display: inline-block;
-	margin-top: 10px;
 }
 .mainNav a {
 	color: rgb(0, 0, 0);
@@ -71,9 +67,11 @@ main a {
 }
 .myButton {
 	padding: 0.5rem;
-	border-radius: 5px;
+	border-radius: 2px;
 	color: black;
-	margin-top: 1.25rem;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 10px;
 	background-color: rgb(255, 132, 0);
 }
 
@@ -87,7 +85,7 @@ main a {
 .card1,
 .card2,
 .card3 {
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+	box-shadow: 1px 1px 6px rgba(0, 0, 0, .5);
 	border-radius: 5px;
 	background-size: cover;
 	background-position: bottom;
