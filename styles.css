@@ -54,9 +54,11 @@ main {
 }
 .mainNav a {
 	color: rgb(0, 0, 0);
+	box-shadow: 1px 1px 3px rgb(77, 70, 70);
 	text-decoration: none;
 	margin-left: 1rem;
 	margin-right: 1rem;
+	background-color: rgb(250, 133, 8);
 }
 .heroInfo {
 	flex: 2;
