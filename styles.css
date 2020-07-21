@@ -11,7 +11,7 @@ html {
 
 body {
 	background-color: rgb(233, 232, 232);
-	background-image: linear-gradient(#eea455, #f38d08);
+	background-image: linear-gradient(#f3bd83, #f38d08);
 	font-size: 1.125rem;
 	font-family: 'Roboto', sans-serif;
 }
@@ -31,9 +31,7 @@ p {
 	margin-bottom: 1rem;
 	line-height: 1.5rem;
 }
-a:hover {
-	background-color: red;
-}
+
 /* Header section */
 header {
 	display: flex;
@@ -41,6 +39,23 @@ header {
 	align-items: center;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+}
+
+.mainNav a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	margin: -1px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(250, 133, 8, 0.105);
+	border: 1px solid black;
+}
+
+.mainNav a:hover {
+	background-color: orangered;
+	transition-duration: 1s;
 }
 
 /* Main section */
@@ -54,20 +69,7 @@ main {
 	color: rgb(0, 0, 0);
 	border: 1px solid black;
 }
-.mainNav a {
-	color: rgb(0, 0, 0);
-	text-decoration: none;
-	margin: -1px;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: rgba(250, 133, 8, 0.105);
-	border: 1px solid black;
-}
-.mainNav a:hover {
-	background-color: orangered;
-}
+
 .heroInfo {
 	flex: 2;
 }
@@ -85,6 +87,10 @@ main {
 	margin-top: 10px;
 	background-color: rgb(255, 115, 0);
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+.myButton:hover {
+	background-color: orangered;
+	transition-duration: 1s;
 }
 
 /* Cards section */
@@ -154,10 +160,13 @@ main {
 
 .fa-phone-square:hover {
 	color: orangered;
+	transition-duration: 1s;
 }
 .fa-wrench:hover {
 	background-color: orangered;
+	transition-duration: 1s;
 }
 .fa-bicycle:hover {
 	background-color: orangered;
+	transition-duration: 1s;
 }
