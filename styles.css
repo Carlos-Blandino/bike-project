@@ -5,7 +5,7 @@
 }
 
 body {
-	background-image: linear-gradient(#f8e2cb, #f38d08);
+	background-image: linear-gradient(hsl(29, 74%, 85%), #ca7506);
 	font-size: 1.125rem;
 	font-family: 'Roboto', sans-serif;
 }
@@ -36,19 +36,19 @@ header {
 }
 
 .mainNav a {
-	color: rgb(0, 0, 0);
+	color: rgb(22, 21, 21);
 	text-decoration: none;
 	margin: -1px;
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: rgba(250, 133, 8, 0.105);
+	background-color: rgb(238, 190, 132);
 	border: 1px solid black;
 }
 
 .mainNav a:hover {
-	background-color: orangered;
+	background-color: rgb(250, 112, 61);
 	transition-duration: 1s;
 }
 
@@ -81,7 +81,7 @@ main {
 	text-decoration: none;
 	display: inline-block;
 	margin-top: 10px;
-	background-color: rgb(255, 115, 0);
+	background-color: rgb(241, 121, 65);
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
 }
 .myButton:hover {
