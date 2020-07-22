@@ -1,8 +1,3 @@
-/* General settings */
-html {
-	height: 100%;
-}
-
 .container {
 	width: 1024px;
 	min-height: 300px;
@@ -10,7 +5,6 @@ html {
 }
 
 body {
-	background-color: rgb(233, 232, 232);
 	background-image: linear-gradient(#f3bd83, #f38d08);
 	font-size: 1.125rem;
 	font-family: 'Roboto', sans-serif;
@@ -169,4 +163,31 @@ main {
 .fa-bicycle:hover {
 	background-color: orangered;
 	transition-duration: 1s;
+}
+
+/* Testimonials */
+.testimonials {
+	margin-top: 1rem;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 5rem;
+	padding-bottom: 3rem;
+}
+
+.tbox {
+	width: 45%;
+	box-sizing: border-box;
+	padding: 2rem;
+	border: 1px solid rgb(255, 255, 255);
+	margin-top: 3rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.testimonials p {
+	color: white;
+}
+.testimonialTitle {
+	margin-top: 9rem;
 }
