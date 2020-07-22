@@ -5,7 +5,7 @@
 }
 
 body {
-	background-image: linear-gradient(#f3bd83, #f38d08);
+	background-image: linear-gradient(#f8e2cb, #f38d08);
 	font-size: 1.125rem;
 	font-family: 'Roboto', sans-serif;
 }
@@ -54,6 +54,8 @@ header {
 
 /* Main section */
 main {
+	background-color: white;
+	border-radius: 10px;
 	min-height: 300px;
 	display: flex;
 	align-items: center;
@@ -147,7 +149,7 @@ main {
 .cards i {
 	background-color: orange;
 	color: black;
-	border-radius: .5rem;
+	border-radius: 5px;
 	font-size: 5.5rem;
 	margin-top: 15px;
 }
@@ -167,6 +169,7 @@ main {
 
 /* Testimonials */
 .testimonials {
+	border-radius: 10px;
 	margin-top: 1rem;
 	background-color: black;
 	display: flex;
@@ -190,4 +193,9 @@ main {
 }
 .testimonialTitle {
 	margin-top: 9rem;
+}
+
+.tbox :last-child {
+	font-size: .8rem;
+	margin-left: 2rem;
 }
